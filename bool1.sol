@@ -3,7 +3,7 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract demo{ 
- bool public value=true;
+ bool public value;
    function checkEven(uint a) public pure returns(bool){
     if(a%2==0){
       return true;
