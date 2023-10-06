@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getObject",
+				"outputs": [
+					{
+						"internalType": "contract Book",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readDimension",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_length",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_breadth",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_height",
+						"type": "uint256"
+					}
+				],
+				"name": "writeDimension",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Importing/object.sol": "Demo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Importing/book.sol": {
+			"keccak256": "0xb3befb198ac31f47e6e0c3e192fd9a8e5f8988e97fb6c7cbde19429cbb12fb43",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5474b4e9b6093c67f100489dbe45d46306d92e7af4f3bbb74023f0c58ccc5504",
+				"dweb:/ipfs/QmPxZfcTJshKScQ6sDUfSgB8GbeUBYryFFS7B9Qu19bVy4"
+			]
+		},
+		"Importing/object.sol": {
+			"keccak256": "0xedbc29b91b2329d181b7a86b198934b321c0591027e482c08b76f2ebeff27001",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://60d2430cf034df4226bdf5fcf2dcbceaf7f78ca60f8669dff0e86ecde538f092",
+				"dweb:/ipfs/QmY9xbwzmyufaizbrwVtGr92GpsAYAH4cuEqfboeNPcSK9"
+			]
+		}
+	},
+	"version": 1
+}
