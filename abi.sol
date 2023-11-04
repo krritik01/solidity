@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+abi.encode encodes data into bytes.
+
 interface IERC20 {
     function transfer(address, uint) external;
 }
